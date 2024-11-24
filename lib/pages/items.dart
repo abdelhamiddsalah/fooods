@@ -7,8 +7,14 @@ class Items extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [Appbarinitems()],
+      body: SafeArea(
+        child: Column(
+          children: [
+            Appbarinitems(),
+            SizedBox(height: 20,),
+            Text('Helllo Kanta, What fruit Salad\n combo do you want today?')
+            ],
+        ),
       ),
     );
   }
