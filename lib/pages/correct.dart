@@ -17,6 +17,7 @@ class Correct extends StatelessWidget {
           children: [
             Container(
                 width: double.infinity,
+                height: MediaQuery.of(context).size.height*.45,
                 child: Image.asset("assets/image/Group 48.png")),
             // const SizedBox(height: 30,),
             const Foodtext(
