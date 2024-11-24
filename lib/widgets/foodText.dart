@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fooods/constants/strings.dart';
 
 class Foodtext extends StatelessWidget {
   const Foodtext(
@@ -19,7 +20,7 @@ class Foodtext extends StatelessWidget {
       style: TextStyle(
           fontSize: size,
           color: color,
-          fontFamily:fontFamily,
+          fontFamily:fontFamilytext,
           fontWeight: fontWeight),
     );
   }

@@ -5,6 +5,7 @@ import 'package:fooods/widgets/foodText.dart';
 import 'package:fooods/widgets/mainButton.dart';
 
 class FruitName extends StatelessWidget {
+  
   const FruitName({super.key});
 
   @override
@@ -26,9 +27,9 @@ class FruitName extends StatelessWidget {
                 children: [
                   Foodtext(
                     data: 'What is your Fruitname?',
-                    size: 16,
+                    size: 18,
                     color: textColor,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.w400,
                   ),
                   const SizedBox(height: 20),
                   Container(
@@ -51,7 +52,9 @@ class FruitName extends StatelessWidget {
                     text: 'Start Ordering',
                     width: double.infinity,
                     height: 60,
-                    onPressed: () { },
+                    onPressed: () { 
+              
+                    },
                   ),
                 ],
               ),
