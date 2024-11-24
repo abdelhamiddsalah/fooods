@@ -12,7 +12,7 @@ class Items extends StatelessWidget {
           children: [
             Appbarinitems(),
             SizedBox(height: 20,),
-            Text('Helllo Kanta, What fruit Salad\n combo do you want today?')
+            Text('Helllo Kanta, What fruit Salad \n combo do you want today?'),
             ],
         ),
       ),
