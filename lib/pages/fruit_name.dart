@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fooods/constants/colors.dart';
+import 'package:fooods/pages/items.dart';
 import 'package:fooods/widgets/ContinerImage.dart';
 import 'package:fooods/widgets/foodText.dart';
 import 'package:fooods/widgets/mainButton.dart';
@@ -53,7 +54,10 @@ class FruitName extends StatelessWidget {
                     width: double.infinity,
                     height: 60,
                     onPressed: () { 
-              
+                    Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const Items()),
+  );
                     },
                   ),
                 ],
