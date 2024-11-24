@@ -9,7 +9,12 @@ class Rowtextfield extends StatelessWidget {
     return Row(
       children: [
         Container(
-          color: secondColor,
+          height: 50,
+          width: double.infinity,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color: formColor,
+          ),
           child: TextFormField(
             decoration: InputDecoration(
               prefixIcon: Icon(Icons.search,color: secondColor,),
