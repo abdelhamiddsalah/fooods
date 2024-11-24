@@ -26,7 +26,7 @@ class Correct extends StatelessWidget {
             ),
             Foodtext(
               data: 'Your order have been taken \n and is being attended to',
-              size: 70,
+              size: 20,
               fontFamily: fontFamilytext,
               color: textColor,
             ),
