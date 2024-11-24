@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fooods/pages/fruit.dart';
 import 'package:fooods/pages/fruit_name.dart';
+import 'package:fooods/pages/items.dart';
 import 'package:fooods/widgets/ContinerImage.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
     debugShowCheckedModeBanner: false,
-      home: Fruit(),
+      home: Items(),
       
 
    
