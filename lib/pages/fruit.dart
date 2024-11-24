@@ -24,7 +24,7 @@ class Fruit extends StatelessWidget {
           Foodtext(
             data: "Get The Freshest Fruit Salad Combo",
             size: 21,
-            fontFamily: fontFamily,
+            fontFamily: fontFamilytext,
             fontWeight: FontWeight.w500,
             color: textColor,
           ),
@@ -37,7 +37,7 @@ class Fruit extends StatelessWidget {
               data:
                   "We deliver the best and freshest fruit salad in town. Order for a combo today!!!",
               size: 15,
-              fontFamily: fontFamily,
+              fontFamily: fontFamilytext,
               color: Color(0xffbac5D577E),
             ),
           ),
