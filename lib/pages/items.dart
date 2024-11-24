@@ -18,10 +18,12 @@ class Items extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Appbarinitems(),
-              SizedBox(height: 20,),
+              SizedBox(height: 30,),
               Foodtext(data: 'Helllo Kanta, What fruit Salad \n combo do you want today?', size: 17),
-              SizedBox(height: 15,),
-              Rowtextfield()
+              SizedBox(height: 25,),
+              Rowtextfield(),
+              SizedBox(height: 50,),
+              Foodtext(data: 'Recommended Combo', size: 23,fontWeight: FontWeight.w700,)
               ],
           ),
         ),
