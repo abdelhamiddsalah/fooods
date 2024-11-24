@@ -10,7 +10,7 @@ class Rowtextfield extends StatelessWidget {
       children: [
         Container(
           height: 50,
-          width: 350,
+          width: 320,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
             color: formColor,
@@ -26,6 +26,7 @@ class Rowtextfield extends StatelessWidget {
             ),
           ),
         ),
+        SizedBox(width: 15),
         Icon(Icons.tune)
       ],
     );
