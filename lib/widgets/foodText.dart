@@ -6,11 +6,12 @@ class Foodtext extends StatelessWidget {
       required this.data,
       required this.size,
       this.color,
-      this.fontWeight});
+      this.fontWeight, this.fontFamily});
   final String data;
   final double size;
   final Color? color;
   final FontWeight? fontWeight;
+  final String? fontFamily ;
   @override
   Widget build(BuildContext context) {
     return Text(
@@ -18,7 +19,7 @@ class Foodtext extends StatelessWidget {
       style: TextStyle(
           fontSize: size,
           color: color,
-          fontFamily: "BricolageGrotesque",
+          fontFamily:fontFamily,
           fontWeight: fontWeight),
     );
   }
